@@ -19,7 +19,7 @@ class Course():
         averageGPA = 0
         for Student in self.enrolledStudents:
             averageGPA += Student.calculateGPA()
-        return averageGPA
+        return averageGPA/len(self.enrolledStudents)
     
     def printCourseInfo(self):
         print("CourseID: ", self.courseID)
