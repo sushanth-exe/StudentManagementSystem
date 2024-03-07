@@ -7,6 +7,7 @@ def addStudent():
     studentID = ""
     studentName = ""
     studentPhoneNo = ""
+    # only if the student is not yet enrolled and all the info is given, the new student is added.
     while(1):
         print("Enter Student ID: ", end = "")
         studentID = input()
@@ -32,6 +33,7 @@ def addCourse():
     courseID = ""
     courseName = ""
     courseCredits = ""
+    # only if the course is not yet added and all the info is given, the new course is added.
     while(1):
         print("Enter Course ID: ", end = "")
         courseID = input()
